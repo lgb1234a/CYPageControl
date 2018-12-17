@@ -3,7 +3,7 @@
 
 # 演示效果
 <video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
-      <source id="mp4" src="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
+      <source id="mp4" src="http://v.youku.com/v_show/id_XMzk2ODI0NTIwNA==.html?sharekey=f3277f73e106ab9f5e5c075360f8df446" type="video/mp4">
 </video>
 
 # 参考文档：
