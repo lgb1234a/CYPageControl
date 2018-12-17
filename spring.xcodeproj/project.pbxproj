@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF45D7B721BFAC55008BC1EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45D7B621BFAC55008BC1EB /* AppDelegate.m */; };
+		EF45D7BA21BFAC55008BC1EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45D7B921BFAC55008BC1EB /* ViewController.m */; };
+		EF45D7BD21BFAC55008BC1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45D7BB21BFAC55008BC1EB /* Main.storyboard */; };
+		EF45D7BF21BFAC57008BC1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF45D7BE21BFAC57008BC1EB /* Assets.xcassets */; };
+		EF45D7C221BFAC57008BC1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45D7C021BFAC57008BC1EB /* LaunchScreen.storyboard */; };
+		EF45D7C521BFAC57008BC1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45D7C421BFAC57008BC1EB /* main.m */; };
+		EF45D7CF21BFAC58008BC1EB /* springTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45D7CE21BFAC58008BC1EB /* springTests.m */; };
+		EF45D7DA21BFAC58008BC1EB /* springUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45D7D921BFAC58008BC1EB /* springUITests.m */; };
+		EF45D7E921BFAD23008BC1EB /* CYHomePageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45D7E821BFAD23008BC1EB /* CYHomePageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF45D7CB21BFAC58008BC1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF45D7AA21BFAC55008BC1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF45D7B121BFAC55008BC1EB;
+			remoteInfo = spring;
+		};
+		EF45D7D621BFAC58008BC1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF45D7AA21BFAC55008BC1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF45D7B121BFAC55008BC1EB;
+			remoteInfo = spring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF45D7B221BFAC55008BC1EB /* spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45D7B521BFAC55008BC1EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF45D7B621BFAC55008BC1EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF45D7B821BFAC55008BC1EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF45D7B921BFAC55008BC1EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF45D7BC21BFAC55008BC1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF45D7BE21BFAC57008BC1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF45D7C121BFAC57008BC1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF45D7C321BFAC57008BC1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45D7C421BFAC57008BC1EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF45D7CA21BFAC58008BC1EB /* springTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = springTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45D7CE21BFAC58008BC1EB /* springTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = springTests.m; sourceTree = "<group>"; };
+		EF45D7D021BFAC58008BC1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45D7D521BFAC58008BC1EB /* springUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = springUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45D7D921BFAC58008BC1EB /* springUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = springUITests.m; sourceTree = "<group>"; };
+		EF45D7DB21BFAC58008BC1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45D7E721BFAD23008BC1EB /* CYHomePageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYHomePageControl.h; sourceTree = "<group>"; };
+		EF45D7E821BFAD23008BC1EB /* CYHomePageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYHomePageControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF45D7AF21BFAC55008BC1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45D7C721BFAC58008BC1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45D7D221BFAC58008BC1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF45D7A921BFAC55008BC1EB = {
+			isa = PBXGroup;
+			children = (
+				EF45D7B421BFAC55008BC1EB /* spring */,
+				EF45D7CD21BFAC58008BC1EB /* springTests */,
+				EF45D7D821BFAC58008BC1EB /* springUITests */,
+				EF45D7B321BFAC55008BC1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF45D7B321BFAC55008BC1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF45D7B221BFAC55008BC1EB /* spring.app */,
+				EF45D7CA21BFAC58008BC1EB /* springTests.xctest */,
+				EF45D7D521BFAC58008BC1EB /* springUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF45D7B421BFAC55008BC1EB /* spring */ = {
+			isa = PBXGroup;
+			children = (
+				EF45D7B521BFAC55008BC1EB /* AppDelegate.h */,
+				EF45D7B621BFAC55008BC1EB /* AppDelegate.m */,
+				EF45D7B821BFAC55008BC1EB /* ViewController.h */,
+				EF45D7B921BFAC55008BC1EB /* ViewController.m */,
+				EF45D7BB21BFAC55008BC1EB /* Main.storyboard */,
+				EF45D7E721BFAD23008BC1EB /* CYHomePageControl.h */,
+				EF45D7E821BFAD23008BC1EB /* CYHomePageControl.m */,
+				EF45D7BE21BFAC57008BC1EB /* Assets.xcassets */,
+				EF45D7C021BFAC57008BC1EB /* LaunchScreen.storyboard */,
+				EF45D7C321BFAC57008BC1EB /* Info.plist */,
+				EF45D7C421BFAC57008BC1EB /* main.m */,
+			);
+			path = spring;
+			sourceTree = "<group>";
+		};
+		EF45D7CD21BFAC58008BC1EB /* springTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF45D7CE21BFAC58008BC1EB /* springTests.m */,
+				EF45D7D021BFAC58008BC1EB /* Info.plist */,
+			);
+			path = springTests;
+			sourceTree = "<group>";
+		};
+		EF45D7D821BFAC58008BC1EB /* springUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF45D7D921BFAC58008BC1EB /* springUITests.m */,
+				EF45D7DB21BFAC58008BC1EB /* Info.plist */,
+			);
+			path = springUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF45D7B121BFAC55008BC1EB /* spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45D7DE21BFAC58008BC1EB /* Build configuration list for PBXNativeTarget "spring" */;
+			buildPhases = (
+				EF45D7AE21BFAC55008BC1EB /* Sources */,
+				EF45D7AF21BFAC55008BC1EB /* Frameworks */,
+				EF45D7B021BFAC55008BC1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spring;
+			productName = spring;
+			productReference = EF45D7B221BFAC55008BC1EB /* spring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF45D7C921BFAC58008BC1EB /* springTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45D7E121BFAC58008BC1EB /* Build configuration list for PBXNativeTarget "springTests" */;
+			buildPhases = (
+				EF45D7C621BFAC58008BC1EB /* Sources */,
+				EF45D7C721BFAC58008BC1EB /* Frameworks */,
+				EF45D7C821BFAC58008BC1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF45D7CC21BFAC58008BC1EB /* PBXTargetDependency */,
+			);
+			name = springTests;
+			productName = springTests;
+			productReference = EF45D7CA21BFAC58008BC1EB /* springTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF45D7D421BFAC58008BC1EB /* springUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45D7E421BFAC58008BC1EB /* Build configuration list for PBXNativeTarget "springUITests" */;
+			buildPhases = (
+				EF45D7D121BFAC58008BC1EB /* Sources */,
+				EF45D7D221BFAC58008BC1EB /* Frameworks */,
+				EF45D7D321BFAC58008BC1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF45D7D721BFAC58008BC1EB /* PBXTargetDependency */,
+			);
+			name = springUITests;
+			productName = springUITests;
+			productReference = EF45D7D521BFAC58008BC1EB /* springUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF45D7AA21BFAC55008BC1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = chenyn;
+				TargetAttributes = {
+					EF45D7B121BFAC55008BC1EB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF45D7C921BFAC58008BC1EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF45D7B121BFAC55008BC1EB;
+					};
+					EF45D7D421BFAC58008BC1EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF45D7B121BFAC55008BC1EB;
+					};
+				};
+			};
+			buildConfigurationList = EF45D7AD21BFAC55008BC1EB /* Build configuration list for PBXProject "spring" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF45D7A921BFAC55008BC1EB;
+			productRefGroup = EF45D7B321BFAC55008BC1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF45D7B121BFAC55008BC1EB /* spring */,
+				EF45D7C921BFAC58008BC1EB /* springTests */,
+				EF45D7D421BFAC58008BC1EB /* springUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF45D7B021BFAC55008BC1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45D7C221BFAC57008BC1EB /* LaunchScreen.storyboard in Resources */,
+				EF45D7BF21BFAC57008BC1EB /* Assets.xcassets in Resources */,
+				EF45D7BD21BFAC55008BC1EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45D7C821BFAC58008BC1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45D7D321BFAC58008BC1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF45D7AE21BFAC55008BC1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45D7E921BFAD23008BC1EB /* CYHomePageControl.m in Sources */,
+				EF45D7BA21BFAC55008BC1EB /* ViewController.m in Sources */,
+				EF45D7C521BFAC57008BC1EB /* main.m in Sources */,
+				EF45D7B721BFAC55008BC1EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45D7C621BFAC58008BC1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45D7CF21BFAC58008BC1EB /* springTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45D7D121BFAC58008BC1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45D7DA21BFAC58008BC1EB /* springUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF45D7CC21BFAC58008BC1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF45D7B121BFAC55008BC1EB /* spring */;
+			targetProxy = EF45D7CB21BFAC58008BC1EB /* PBXContainerItemProxy */;
+		};
+		EF45D7D721BFAC58008BC1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF45D7B121BFAC55008BC1EB /* spring */;
+			targetProxy = EF45D7D621BFAC58008BC1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF45D7BB21BFAC55008BC1EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF45D7BC21BFAC55008BC1EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF45D7C021BFAC57008BC1EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF45D7C121BFAC57008BC1EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF45D7DC21BFAC58008BC1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF45D7DD21BFAC58008BC1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF45D7DF21BFAC58008BC1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5XJTJYDB9;
+				INFOPLIST_FILE = spring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenyn.spring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF45D7E021BFAC58008BC1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5XJTJYDB9;
+				INFOPLIST_FILE = spring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenyn.spring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF45D7E221BFAC58008BC1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = springTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenyn.springTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spring.app/spring";
+			};
+			name = Debug;
+		};
+		EF45D7E321BFAC58008BC1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = springTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenyn.springTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spring.app/spring";
+			};
+			name = Release;
+		};
+		EF45D7E521BFAC58008BC1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = springUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenyn.springUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spring;
+			};
+			name = Debug;
+		};
+		EF45D7E621BFAC58008BC1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = springUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chenyn.springUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF45D7AD21BFAC55008BC1EB /* Build configuration list for PBXProject "spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45D7DC21BFAC58008BC1EB /* Debug */,
+				EF45D7DD21BFAC58008BC1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF45D7DE21BFAC58008BC1EB /* Build configuration list for PBXNativeTarget "spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45D7DF21BFAC58008BC1EB /* Debug */,
+				EF45D7E021BFAC58008BC1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF45D7E121BFAC58008BC1EB /* Build configuration list for PBXNativeTarget "springTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45D7E221BFAC58008BC1EB /* Debug */,
+				EF45D7E321BFAC58008BC1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF45D7E421BFAC58008BC1EB /* Build configuration list for PBXNativeTarget "springUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45D7E521BFAC58008BC1EB /* Debug */,
+				EF45D7E621BFAC58008BC1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF45D7AA21BFAC55008BC1EB /* Project object */;
+}
